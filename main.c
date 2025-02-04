@@ -27,4 +27,7 @@ void main() {
     // A fórmula é: novoSalario = salario + (salario * (reajuste / 100)).
     // Onde 'reajuste / 100' transforma o percentual em número decimal.
     novoSalario = salario + (salario * (reajuste / 100));
+
+    // Exibe o novo salário com duas casas decimais.
+    printf("O novo salario apos o reajuste é de: %0.2f", novoSalario);
 }
