@@ -16,6 +16,12 @@ Crie um algoritmo que leia o **salário mensal** atual de um funcionário e o **
 > [!IMPORTANT]\
 > **Boas práticas**:
 >
+> * **Nome de variáveis claro**:
+>   * As variáveis `salario`, `reajuste` e `novoSalario` têm nomes que são intuitivos e explicam claramente o que elas representam, o que facilita o entendimento do código.
+>
+> * **Usar `printf` e `scanf` corretamente**:
+>   * O uso das funções `printf` e `scanf` está correto, mas sempre é importante verificar se o usuário insere valores válidos.
+>   * Embora isso não seja uma prática essencial aqui, pode ser uma melhoria futura.
 
 > [!WARNING]\
 > **Sugestões de melhoria**:
