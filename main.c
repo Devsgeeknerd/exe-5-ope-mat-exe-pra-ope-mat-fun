@@ -16,4 +16,10 @@ void main() {
 
     // Lê o valor informado pelo usuário e armazena em 'salario'.
     scanf("%f", &salario);
+
+     // Solicita ao usuário o percentual do reajuste.
+    printf("Digite o percentual do reajuste do salario: ");
+
+    // Lê o percentual informado pelo usuário e armazena em 'reajuste'.
+    scanf("%f", &reajuste);
 }
