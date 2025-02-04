@@ -39,6 +39,11 @@ Crie um algoritmo que leia o **salário mensal** atual de um funcionário e o **
 > [!NOTE]\
 > **Observações**:
 >
+> * **Comentando o código**:
+>   * O uso de comentários, como foi feito, é fundamental para o entendimento do código, principalmente para iniciantes.
+>
+> * **Precisão nos cálculos**:
+>   * O cálculo do reajuste está correto e é feito com a precisão necessária, mas em cenários mais complexos (como manipulação de valores financeiros), pode-se considerar o uso de tipos de dados mais precisos, como `double`, para evitar pequenas imprecisões com o tipo `float`.
 
 <!-- Informações -->
 ## &#8505; Informações
