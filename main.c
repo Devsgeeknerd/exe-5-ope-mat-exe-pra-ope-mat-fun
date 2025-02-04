@@ -30,4 +30,8 @@ void main() {
 
     // Exibe o novo salário com duas casas decimais.
     printf("O novo salario apos o reajuste é de: %0.2f", novoSalario);
+
+    // A função main não precisa de um 'return 0;' quando se usa void no início, mas está correto se incluir. 
+    // O valor 0 indica que o programa terminou sem erros.
+    return 0;
 }
