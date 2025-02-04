@@ -22,4 +22,9 @@ void main() {
 
     // Lê o percentual informado pelo usuário e armazena em 'reajuste'.
     scanf("%f", &reajuste);
+
+    // Calcula o novo salário aplicando o reajuste.
+    // A fórmula é: novoSalario = salario + (salario * (reajuste / 100)).
+    // Onde 'reajuste / 100' transforma o percentual em número decimal.
+    novoSalario = salario + (salario * (reajuste / 100));
 }
