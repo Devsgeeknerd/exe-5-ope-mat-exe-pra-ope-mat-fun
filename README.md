@@ -26,6 +26,15 @@ Crie um algoritmo que leia o **salário mensal** atual de um funcionário e o **
 > [!WARNING]\
 > **Sugestões de melhoria**:
 >
+> * **Validar entradas do usuário**:
+>   * Uma sugestão de melhoria seria garantir que o valor informado pelo usuário para o salário e o percentual seja válido.
+>   * Você poderia adicionar verificações para garantir que o salário seja positivo e o percentual esteja dentro de um intervalo razoável (ex: entre 0 e 1000%).
+>
+> * **Retornar tipo `int` em vez de `void` na função `main`**:
+>   * A convenção em C é usar `int main()` em vez de `void main()`, e retornar `0` no final para indicar que o programa foi executado com sucesso.
+>
+> * **Adicionar mensagens de erro**:
+>   * Caso o usuário insira valores inválidos, você pode adicionar mensagens de erro para melhorar a experiência do usuário.
 
 > [!NOTE]\
 > **Observações**:
